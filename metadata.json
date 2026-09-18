@@ -1,0 +1,6 @@
+{
+  "name": "Keris AR Scanner",
+  "description": "Aplikasi Simple AR Kamera untuk scan QR dan memunculkan model 3D Keris",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- AR Target Reticle Accent (within safe zone) -->
+    <path
+        android:strokeColor="#80FFD700"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,36 L30,36 L30,42 M74,36 L78,36 L78,42 M30,66 L30,72 L34,72 M78,66 L78,72 L74,72" />
+
+    <!-- 3D Sparkle / Cultural Glow Star -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M68,26 L69.5,30 L73.5,31.5 L69.5,33 L68,37 L66.5,33 L62.5,31.5 L66.5,30 Z" />
+
+    <!-- Keris Dagger Vector (Centered within 26 to 84 vertically) -->
+    <!-- Blade: Wavy Luk with pamor gradient -->
+    <path
+        android:pathData="M53.5,23 C53.5,23 51,26 51.5,29 C52,32 55.5,33.5 55.5,37 C55.5,40.5 51.5,42.5 51.5,46 C51.5,49.5 56,51.5 56,55 C56,58.5 51.5,60.5 51.5,64 C51.5,67 55,69 55,70.5 L57,70.5 C57,69 53.5,67 53.5,64 C53.5,60.5 58,58.5 58,55 C58,51.5 53.5,49.5 53.5,46 C53.5,42.5 57.5,40.5 57.5,37 C57.5,33.5 54,32 53.5,29 C53,26 54.5,23 54.5,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="51"
+                android:startY="23"
+                android:endX="58"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF3D6" />
+                <item android:offset="0.3" android:color="#E6C687" />
+                <item android:offset="0.7" android:color="#B8860B" />
+                <item android:offset="1.0" android:color="#D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pamor Inlay Texture line (center spine / ada-ada) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,24 C53.2,27 52.8,30 53.8,33 C54.8,36 53.8,39 53.2,42 C52.6,45 54.2,48 54.5,51 C54.8,54 53.5,57 53.2,60 C53,63 54.5,66 54.5,69" />
+
+    <!-- Ganja (Asymmetric guard base characteristic of Indonesian Keris) -->
+    <path
+        android:pathData="M43,70.5 C43,70.5 48,70 54,70 C60,70 65,70.5 66.5,71.5 C67.5,72.2 65,73.5 63,73.5 C59,73.5 57,72.5 54,72.5 C51,72.5 49,73.5 45,73.5 C43,73.5 41.5,72.5 42,71.8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="70"
+                android:endX="67"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C5A059" />
+                <item android:offset="0.5" android:color="#E5C158" />
+                <item android:offset="1.0" android:color="#8B6914" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mendak (Decorative ring ornament between blade and hilt) -->
+    <path
+        android:fillColor="#FFDF78"
+        android:pathData="M52,73.5 L56,73.5 L55.5,75.5 L52.5,75.5 Z" />
+
+    <!-- Deder / Ukiran Hulu (Carved traditional wooden hilt bent with posture) -->
+    <path
+        android:pathData="M52.5,75.5 C52,76.5 50.5,78 51,80 C51.5,82 53.5,83.5 54,85 C54.2,85.8 53.8,86.5 53,86.5 C51.8,86.5 50.5,85 50,83 C49.5,81 50,78.5 51.5,76.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="75"
+                android:endX="55"
+                android:endY="87"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7E481F" />
+                <item android:offset="0.5" android:color="#592E10" />
+                <item android:offset="1.0" android:color="#361B0A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
